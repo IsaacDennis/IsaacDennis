@@ -1,0 +1,20 @@
+name: 'Auto-README workflow'
+run-name: '[auto-readme] Update README.md'
+on:
+    workflow_dispatch:
+    push:
+    schedule:
+      - cron: '0 0 * * *'
+jobs:
+    run-auto-readme:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+        - uses: IsaacDennis/auto-readme@master
+          with:
+            username: 'IsaacDennis'
+            template-path: ${{ github.workspace }}/README.template
+            output-path: ${{ github.workspace }}/README.md
+        - uses: stefanzweifel/git-auto-commit-action@v4
+          with:
+            commit_message: '[auto-readme] Update README.md'
