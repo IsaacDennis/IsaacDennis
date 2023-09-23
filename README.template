@@ -2,5 +2,5 @@
 
 ## :earth_americas: Recent contributions
 {{range .Contributions}}
-* {{. | humanizeEvent}}
+* {{humanizeEvent . $.Format}}
 {{- end}}
