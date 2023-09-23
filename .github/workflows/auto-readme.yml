@@ -15,6 +15,7 @@ jobs:
             username: 'IsaacDennis'
             template-path: ${{ github.workspace }}/README.template
             output-path: ${{ github.workspace }}/README.md
+            format: 'md'
         - uses: stefanzweifel/git-auto-commit-action@v4
           with:
             commit_message: '[auto-readme] Update README.md'
