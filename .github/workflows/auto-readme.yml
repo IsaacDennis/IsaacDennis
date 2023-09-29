@@ -16,6 +16,8 @@ jobs:
             template-path: ${{ github.workspace }}/README.template
             output-path: ${{ github.workspace }}/README.md
             format: 'md'
+            page: 1
+            perPage: 8
         - uses: stefanzweifel/git-auto-commit-action@v4
           with:
             commit_message: '[auto-readme] Update README.md'
