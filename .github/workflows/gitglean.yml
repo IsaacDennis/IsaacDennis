@@ -1,5 +1,5 @@
-name: 'Auto-README workflow'
-run-name: '[auto-readme] Update README.md'
+name: 'gitglean workflow'
+run-name: 'gitglean: Update README.md'
 on:
     workflow_dispatch:
     push:
@@ -20,4 +20,4 @@ jobs:
             perPage: 8
         - uses: stefanzweifel/git-auto-commit-action@v4
           with:
-            commit_message: '[auto-readme] Update README.md'
+            commit_message: '[gitglean] Update README.md'
