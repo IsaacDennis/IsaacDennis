@@ -1,9 +1,8 @@
-# Isaac Dennis / [Homepage](https://isaacdennis.tech/)
+# Isaac Dennis
 ## :pencil: About
 * Currently undergrad student of IT Systems Analysis & Development at _Fatec São Paulo_
-* Main interests: data science, linux, math
+* Main interests: software architecture, data science, linux, math
 
-Go to [isaacdennis.tech/about](https://isaacdennis.tech/about.html) for more information (page under construction).
 ## :earth_americas: Recent contributions
 
 * ⤴️ Pushed 1 commits to [IsaacDennis/google-analytics-cases](https://github.com/IsaacDennis/google-analytics-cases)
