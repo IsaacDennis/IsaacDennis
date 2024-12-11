@@ -1,7 +1,6 @@
 # Isaac Dennis
 ## :pencil: About
 * Currently undergrad student of IT Systems Analysis & Development at _Fatec São Paulo_
-* Main interests: software architecture, data science, linux, math
 
 ## :earth_americas: Recent contributions
 
